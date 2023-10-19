@@ -1,14 +1,14 @@
+import weasyprint 
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.admin.views.decorators import staff_member_required
 from django.urls import reverse
-from .models import OrderItem, Order
-from .forms import OrderCreateForm
-from cart.cart import Cart
-from .tasks import order_created
 from django.conf import settings
 from django.http import HttpResponse
 from django.template.loader import render_to_string
-import weasyprint
+from cart.cart import Cart
+from .models import OrderItem, Order
+from .forms import OrderCreateForm
+from .tasks import order_created
 
 
 
