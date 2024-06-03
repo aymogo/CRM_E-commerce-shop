@@ -1,4 +1,4 @@
-# CRM_E-commerce-shop
+# E-commerce-shop
 # How to run
 
 ## Starting: Run the server & SQLite
@@ -6,8 +6,8 @@
 The fastest way to run the bot is to run it in polling mode using SQLite database without all Celery workers for background jobs. This should be enough for quickstart:
 
 ``` bash
-git clone https://github.com/iMshaLch/CRM_E-commerce-shop
-cd CRM_E-commerce-shop/myshop
+git clone https://github.com/aymogo/E-commerce-shop
+cd E-commerce-shop/myshop
 ```
 
 Create virtual environment (optional)
